@@ -1,1 +1,1 @@
-# Proble Solving Report of LeetCode OJ
+# Problem Solving Report of LeetCode OJ
