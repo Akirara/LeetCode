@@ -1,6 +1,6 @@
 public class Solution {
     public String getPermutation(int n, int k) {
-        int[] fact = {1, 1, 2, 6, 24, 120, 720, 5760, 51840};
+        int[] fact = {1, 1, 2, 6, 24, 120, 720, 5040, 40320};
         int[] flag = new int[n + 1];
         StringBuilder sb = new StringBuilder();
         int num = 0;
@@ -13,7 +13,7 @@ public class Solution {
         	else {
         		num++;
         	}
-        	for(int j = 1, count = 0; j <= 9; j++) {
+        	for(int j = 1, count = 0; j <= n; j++) {
         		if(flag[j] == 0)
         			count++;
         		if(count == num) {
