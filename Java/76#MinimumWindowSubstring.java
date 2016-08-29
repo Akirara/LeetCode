@@ -39,6 +39,7 @@ public class Solution {
 	            window = s.substring(l, r);
 	        }
 	    }
+	    
 	    return window;
 	}
 }

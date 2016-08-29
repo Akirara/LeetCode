@@ -12,6 +12,7 @@ public class Solution {
         		++len;
         	}
         }
+        
         return len;
     }
 }

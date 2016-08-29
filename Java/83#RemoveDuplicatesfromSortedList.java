@@ -21,6 +21,7 @@ public class Solution {
         	}
         	current = pre.next;
         }
+        
         return head;
     }
 }

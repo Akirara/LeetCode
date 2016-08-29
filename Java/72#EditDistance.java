@@ -19,6 +19,7 @@ public class Solution {
     			table[i][j] = Math.min(table[i][j] + 1, tmp);
     		}
     	}
-    	return table[m][n];
+    	
+        return table[m][n];
     }
 }
